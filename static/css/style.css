@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    
+    background-image: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+}
+
+
+.head-tag{
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+/*dist name*/
+h1{
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 45%;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-decoration: solid;
+
+}
+/*heading*/
+th{
+    
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(230, 182, 182);
+    text-decoration: solid;
+    border: 1.5px solid rgb(25, 94, 24);
+    padding :5px;
+    margin-right : 10em;   
+    background-color:rgba(25, 94, 24, 0.651);}
+/*data*/
+    td{
+    font-family: monospace;
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: solid;
+    border: 1.5px solid rgb(25, 94, 24);
+    padding :5px;
+    background-color:rgba(25, 94, 24, 0.411);
+        
+
+}
+/*home*/
+.button-tag a{
+    border: 1px solid rgb(230, 182, 182);
+    text-decoration: solid;
+    margin-top: -8.5%;
+    float: left;
+    margin-left: 2.5%;
+    border-radius: 0.20cm;
+    padding: 10px;
+    margin-right: 2%;
+    background-color: rgba(25, 94, 24, 0.562);
+    color: rgb(230, 182, 182);
+} 
+
+/*dist buttons*/
+a {
+    color: rgb(255, 255, 255);
+    
+    text-decoration: solid;
+    align-self: center;
+    font-size: 0.8cm;
+    font-family: 'Times New Roman', Times, serif;
+    /*
+    color:rgb(255, 255, 255);
+    text-decoration: solid;
+    */
+    padding: 0.4cm;
+    border-radius: 0.2cm;
+    background-color: rgba(0, 0, 0, 0.548);
+
+}
+
+h2{
+    float: left;
+    font-size: 01cm;
+    margin-top: 3%;
+    margin-left: 40%;
+    color:rgb(0, 0, 0);
+    
+}
+
+
+input{
+    margin: auto;
+    margin-left: 40%;
+    margin-top:5%;
+    
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    background-color:  rgb(230, 182, 182);
+    border-radius: 38%;
+    
+}
+/*menu*/
+h3{
+   
+    
+    font-size: 02.5cm;
+    color: rgb(230, 182, 182);
+    padding-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#195e1873;
+}
+
+/*filter*/
+.sub input{
+    border-radius: 0.1cm;
+    margin-top: 0.8cm;
+    float: right;
+    margin-left: 5%;
+    padding: 2px;
+    margin-right: -15%;
+    background-color:  rgba(230, 182, 182, 0);
+    color: #195e18;
+}
+.vegg{
+    margin-top: 0%;
+    float: right;
+    margin-left: 5%;
+    padding: 5px;
+    margin-right: 2%;
+    background-color:  rgb(230, 182, 182);
+    color: #195e18;
+}

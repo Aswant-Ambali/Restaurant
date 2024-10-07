@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="https://www.transparentpng.com/thumb/tomato/dpqY4o-download-tomato.png">
+
+    <title>Palakkad</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h3>MENU</h3>
+    <div class="button-tag">
+        <a href="/">HOME</a> 
+    </div>
+    <div class="vegg">
+        <form action="/palakkad_filter"  method="POST">
+            <label for="veg">Veg/Non-veg:</label>
+            <select id="veg" name="veg" onchange="this.form.submit()">
+                <option value="#" >Select Option</option>
+                <option value="vegetarian" >vegetarian</option>
+                <option value="non-vegetarian">non-vegetarian</option>
+                <option value="all" >All</option>
+            </select>
+        </form>
+    </div>
+    <h1>PALAKKAD</h1>
+    <div class="head-tag">
+    <table border:150px>
+        
+        <thead>
+            <tr>
+                <th>RID</th>
+                <th>NAME</th>
+                <th>ADDRESS</th>
+                <th>PHONE NUMBER</th>
+                <th>WORKING TIME</th>
+                <th>PARKING AVAILABLE</th>
+                <th>DINE IN AVAILABLE</th>
+                <th>VEGETARIAN/NON VEGETARIAN</th>
+            </tr>
+        
+        </thead>
+        
+        <tbody>
+            
+            {% for i in sqldata %}
+            <tr>
+                <td>{{i[0]}}</td>
+                <td>{{i[1]}}</td>
+                <td>{{i[2]}}</td>
+                <td>{{i[3]}}</td>
+                <td>{{i[4]}}</td>
+                <td>{{i[5]}}</td>
+                <td>{{i[6]}}</td>
+                <td>{{i[7]}}</td>
+                
+            </tr>
+            {% endfor %}
+            
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

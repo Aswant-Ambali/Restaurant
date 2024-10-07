@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="https://www.transparentpng.com/thumb/tomato/dpqY4o-download-tomato.png">
+    <title>MENU</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+    <h3>MENU</h3>
+    <div class="button-tag">
+        <a href="/">HOME</a> 
+    </div>
+    <div class="message">
+        {{message}}
+    </div>
+    <div class="input-tag">
+    <form action="/login" method ="post">
+        <h1>User Login</h1>
+        <br><br>
+        <label>User Name</label>
+        <input name="username" type="text" placeholder="User Name">
+        <br><br>
+        <label>Password</label>
+        <input name="password" type="password" placeholder="Password">
+        <br><br>
+        <button>Login</button>  
+        
+        
+    </form>
+    </div>
+</body>
+</html>

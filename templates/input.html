@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="https://www.transparentpng.com/thumb/tomato/dpqY4o-download-tomato.png">
+
+    <title>Ernakulam</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+    
+    <h3>MENU</h3>
+    <div class="button-tag">
+    <a href="/">HOME</a> 
+    </div>
+    
+    <div class="input-tag">
+    <form action="/read" method ="post">
+        <div class="message">
+            {{message}}
+        </div>
+        <h1>Enter Restaurant details</h1>
+        <label>District</label>
+        <select id="district" name="district">
+            <option value="ernakulam">Ernakulam</option>
+            <option value="thrissur">Thrissur</option>
+            <option value="palakkad">Palakkad</option>
+
+        </select>
+        <br><br>
+        <label>Restaurant ID :</label>
+        <input name="R_id" type="text" placeholder="Restaurant ID">
+        <br><br>
+        <label>Name :</label>
+        <input name="name" type="text" placeholder="Name">
+        <br><br>
+        <label>Address :</label>
+        <input name="address" type="text" placeholder="Address">
+        <br><br>
+        <label>Phone No :</label>
+        <input name="phno" type="text" placeholder="Phone Number">
+        <br><br>
+        <label>Working Time :</label>
+        <input name="w_time" type="text" placeholder="Working Time">
+        <br><br>
+        <label>Parking Available :</label>
+        <select id="parking" name="parking">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+        <label>Dine In Available:</label>
+        <select id="dine_in" name="dine_in">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+        <label>Vegetarian Option :</label>
+        <select id="veg" name="veg">
+            <option value="vegetarian">Vegetarian</option>
+            <option value="non-vegetarian">Non-vegetarian</option>
+        </select> 
+        <br>    
+        <button>Submit</button>    
+    </form>
+    </div>
+</body>
+</html>

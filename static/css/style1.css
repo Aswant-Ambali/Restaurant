@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    
+    background-image: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+}
+
+
+.head-tag{
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+/*dist name
+h1{
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 45%;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-decoration: solid;
+
+}
+
+
+/*menu*/
+h3{
+   
+    
+    font-size: 02.5cm;
+    color: rgb(230, 182, 182);
+    padding-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#195e1873;
+}
+a{
+    float: centre;
+    margin-top: 3%;
+    margin-left: 44.0%;
+    font-size: 0.8cm;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+    text-decoration: solid;
+    padding: 0.4cm;
+    border-radius: 0.2cm;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+/*home*/
+.button-tag a{
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(230, 182, 182);
+    margin-top: -8.5%;
+    float: left;
+    margin-left: 2.5%;
+    border-radius: 0.20cm;
+    padding: 10px;
+    margin-right: 2%;
+    background-color: rgba(25, 94, 24, 0.562);
+    color: rgb(230, 182, 182);
+}
+
+
+.input-tag{
+    color: white;
+ text-align: center;
+font-size: 20px;
+
+}
+.input-tag input{
+    background-color: rgb(255, 255, 255);
+}
+.input-tag h1{
+    margin-top: 0.5%;
+    color: black;
+
+}
+.input-tag label{
+    margin-top: 1.5%;
+   color: #000;
+}
+.input-tag input{
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    
+    color: #000000;
+}
+.input-tag select{
+    color: #000;
+}
+button{
+    align-items: center;
+    border: 1px solid rgb(230, 182, 182);
+    
+    border-radius: 0.20cm;
+    padding: 10px;
+    background-color: rgba(25, 94, 24, 0.842);
+    color: rgb(230, 182, 182);
+}
+.message{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
